@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--test verbose="2" preserve-order="true" name="C:/Users/ga.khare/IdeaProjects/TestNG">
+        <classes/>
+    </test-->
+    <groups>
+        <run>
+            <include name="Group1">
+            </include>
+        </run>
+    </groups>
+    <test thread-count="3" name="Test_Language">
+        <classes>
+            <class name="Languages"></class>
+        </classes>
+    </test>
+
+    <test thread-count="3" name="Test_Country">
+        <classes>
+            <class name="Countries"></class>
+        </classes>
+    </test>
+
+</suite>
